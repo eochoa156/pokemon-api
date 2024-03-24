@@ -3,8 +3,6 @@ require('dotenv').config()
 const { performance } = require("perf_hooks");
 const Pokemon = require('../models/Pokemon')
 
-
-
 async function main() {
     const start = performance.now();
     console.log('start')
